@@ -15,7 +15,7 @@
     "hyperapp": "^1.2.10",
     "i18next": "^19.3.3",
     "i18next-browser-languagedetector": "^4.0.2",
-    "jquery": "^1.12.4"
+    "jquery": "^3.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
