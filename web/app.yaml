@@ -1,0 +1,13 @@
+runtime: php55
+
+handlers:
+  - url: /(.*\.(js|map|css|jpg|png|ico))$
+    static_files: dist/\1
+    upload: dist/.*\.(js|map|css|jpg|png|ico)$
+
+  - url: /.*
+    static_files: dist/index.html
+    upload: dist/index.html
+
+skip_files:
+  - ^(?!.*dist).*$

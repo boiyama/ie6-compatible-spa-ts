@@ -1,0 +1,31 @@
+{
+  "name": "ie6-compatible-spa-ts",
+  "description": "IE6-compatible SPA in TypeScript",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "rimraf dist && API_ENDPOINT=//api-dot-boiyama-ie6-spa-ts.appspot.com node scripts/build.js",
+    "dev": "API_ENDPOINT=//localhost:8080 node scripts/serve.js"
+  },
+  "dependencies": {
+    "@hyperapp/router": "^0.7.2",
+    "@types/jquery": "^3.3.33",
+    "@types/node": "^13.9.2",
+    "hyperapp": "^1.2.10",
+    "i18next": "^19.3.3",
+    "i18next-browser-languagedetector": "^4.0.2",
+    "jquery": "^1.12.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-member-expression-literals": "^7.8.3",
+    "@babel/plugin-transform-property-literals": "^7.8.3",
+    "@babel/plugin-transform-property-mutators": "^7.8.3",
+    "@babel/plugin-transform-reserved-words": "^7.8.3",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-bundle-visualiser": "^1.2.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}

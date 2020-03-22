@@ -1,0 +1,7 @@
+runtime: nodejs10
+
+service: api
+
+handlers:
+  - url: /.*
+    script: auto

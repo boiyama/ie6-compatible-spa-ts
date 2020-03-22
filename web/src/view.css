@@ -1,0 +1,85 @@
+body {
+  font-size: 14px;
+}
+
+.home {
+  height: 100%;
+}
+
+.home .site-header-fixture,
+.home .site-header {
+  background: transparent;
+}
+
+.site-header-fixture .site-header {
+  _position: absolute;
+}
+
+.site-header-ghost {
+  _position: relative;
+}
+
+.site-header-fixture a {
+  line-height: 1;
+}
+
+.site-header {
+  box-shadow: none;
+}
+
+.site-header .nav a,
+.site-header-ghost .nav a {
+  padding: 16px 16px;
+}
+
+* html .brand {
+  width: 300px;
+}
+
+* html .gmenu {
+  width: 340px;
+}
+
+* html .lang {
+  width: 130px;
+}
+
+.brand a {
+  display: block;
+  padding-top: 12px;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.brand a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.home .site-body {
+  height: 100%;
+  background-image: url(pages/home.jpg);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .home .site-body {
+    background-image: url(pages/home2x.jpg);
+    background-size: 1920px 1080px;
+  }
+}
+
+.technology-stack img {
+  width: 100px;
+  height: 100px;
+}
+
+.panel {
+  border-width: 1px;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.icon {
+  font-family: "Material Icons";
+}
