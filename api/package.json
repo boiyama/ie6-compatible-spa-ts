@@ -9,7 +9,7 @@
     "dev": "nodemon --watch 'main.js' --exec 'node' main.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "phin": "^3.4.1"
   },
   "devDependencies": {
